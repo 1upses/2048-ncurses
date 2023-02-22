@@ -1,5 +1,7 @@
 #include "include/my.h"
 
+// 90% de chance de générer un 2
+// 10% de chance de générer un 4
 int get_random_block()
 {
     int value = rand() % 10;
